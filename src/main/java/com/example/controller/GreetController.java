@@ -9,6 +9,7 @@ public class GreetController {
 	@RequestMapping("/sayHello")
    public String hellouser(Model model	) {
 		model.addAttribute("message","have a good day");
+		model.addAttribute("message","have a good day");
 	return "Sucess";
 	   
    }
